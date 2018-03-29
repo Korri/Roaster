@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for view in views/*.ui
+do
+    pyuic5 $view -o "${view%.*}.py"
+done
