@@ -7,6 +7,6 @@ window = QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(window)
 
-# window.showFullScreen()
+window.showFullScreen()
 window.show()
 sys.exit(app.exec_())
